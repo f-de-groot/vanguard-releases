@@ -14,6 +14,19 @@ A local development environment for Windows 11, in one desktop app.
 - Catch outgoing mail locally and read it in the app.
 - Run MySQL or MariaDB as a service.
 
+## Terms
+
+This app is an internal tool, not open-source software and not a product. It is intended for
+the copyright holder and the people working with him, who may install and use it for their own
+work. Making the installers reachable here does not license anyone else to use, redistribute,
+mirror or repackage them.
+
+The app is provided **as is**, with no warranty and no support commitment. It drives git, and
+git commands can destroy work; keep backups.
+
+Copyright (c) 2026 F. de Groot. All rights reserved. The libraries the app bundles carry their
+own licences, listed in the application's `NOTICE.md`.
+
 ## Install
 
 Download the newest `Vanguard_x.y.z_x64-setup.exe` from
