@@ -1,11 +1,8 @@
-<img src="icon.png" width="96" alt="" align="left">
+<img src="icon.png" width="96" alt="Vanguard">
 
 # Vanguard
 
 A local development environment for Windows 11, in one desktop app.
-
-<br clear="left">
-
 
 - Park a folder and every project inside it is served at `https://<name>.test`,
   with a certificate your browser trusts.
