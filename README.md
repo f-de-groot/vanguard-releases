@@ -18,8 +18,7 @@ the copyright holder and the people working with him, who may install and use it
 work. Making the installers reachable here does not license anyone else to use, redistribute,
 mirror or repackage them.
 
-The app is provided **as is**, with no warranty and no support commitment. It drives git, and
-git commands can destroy work; keep backups.
+The app is provided **as is**, with no warranty and no support commitment.
 
 Copyright (c) 2026 F. de Groot. All rights reserved. The libraries the app bundles carry their
 own licences, listed in the application's `NOTICE.md`.
