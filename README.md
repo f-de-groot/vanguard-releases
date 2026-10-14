@@ -33,9 +33,8 @@ own licences, listed in the application's `NOTICE.md`.
 
 Download `Vanguard_x.y.z_x64-setup.exe` from the release marked **Latest** under
 [Releases](https://github.com/f-de-groot/vanguard-releases/releases) and run it.
-A newer release marked **Pre-release** is waiting for Microsoft to confirm that
-Windows Defender should not flag it, which usually takes a day or two; Vanguard
-offers it as an update once it is cleared.
+A new version appears here once Microsoft has confirmed that Windows Defender
+should not flag it, which usually takes a day or two after it is built.
 
 The installer is not signed, so SmartScreen warns once: More info, then Run
 anyway. Everything Vanguard downloads lives in `%USERPROFILE%\.vanguard\`.
@@ -55,7 +54,7 @@ Defender can still change its mind later. If it happens to you:
 - **Malwarebytes:** restore it under Detection History, Quarantine, and add
   `C:\Program Files\Vanguard` under Allow List.
 
-Then, in Vanguard 0.19.2 or later, go to Settings, Windows Defender and choose
+Then, in Vanguard 0.19.3 or later, go to Settings, Windows Defender and choose
 **Add exception**. It
 excludes `C:\Program Files\Vanguard` and nothing else (only administrators can
 change that folder), so later updates and scans leave Vanguard alone. Windows
