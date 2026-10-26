@@ -17,6 +17,16 @@ A local development environment for Windows 11, in one desktop app.
 - Start Redis, Meilisearch, RustFS (S3-compatible storage) and Laravel Reverb
   with one click, each with a ready-to-paste `.env` block.
 
+## Keep and production databases
+
+- Saved connections and their passwords are encrypted. With a password set
+  (Keep's settings), Keep asks for it when it opens and again after Windows
+  locks or sleeps. It only works for your Windows account, so a copy of
+  Keep's file is no use elsewhere. Save the recovery key it shows: without
+  it, a lost password means starting again.
+- On any server that is not on your machine, a DROP or TRUNCATE first shows
+  a warning and then asks for that database's password.
+
 ## Terms
 
 This app is an internal tool, not open-source software and not a product. It is intended for
